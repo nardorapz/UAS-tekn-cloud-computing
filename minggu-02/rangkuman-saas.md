@@ -1,28 +1,45 @@
+SaaS: Perangkat Lunak sebagai Layanan
+	Merupakan layanan menjalankan aplikasi di cloud publik. Pengguna menggunakan aplikasi ini melalui Internet. Aplikasi ini dikelola oleh Penyedia Layanan. Seperti SalesForce, Microsoft (Office 365), Oracle, Google (Google Apps), dll.
+		Salesforce adalah perusahaan pertama yang mengubah dunia Saas, dan sejak saat itu, perusahaan lain telah melihat potensi di pasar ini dan meluncurkan aplikasi mereka.
 
-Perangkat lunak sebagai layanan adalah model lisensi dan pengiriman perangkat lunak di mana perangkat lunak dilisensikan berdasarkan berlangganan dan di-host secara terpusat. Pengguna dapat mengaksesnya dengan bantuan browser web.
+Iaas: Infrastruktur sebagai Layanan
+	Layanan ini menyediakan lingkungan bagi pengembang untuk membangun aplikasi yang dapat digunakan pengguna. 
+	IaaS meliputi:
+		1. Pengguna membuat mesin virtual (VM) sesuai permintaan.
+		2. Dari perpustakaan gambar VM.
+	Amazon (AWS) adalah vendor terkemuka dalam menyediakan IaaS.
 
-SaaS adalah model pengiriman umum untuk banyak aplikasi bisnis, termasuk perangkat lunak perkantoran dan pesan, perangkat lunak manajemen, virtualisasi dll. Ini adalah bagian dari nomenklatur komputasi awan, bersama dengan infrastruktur sebagai layanan (IaaS), platform sebagai layanan (PaaS) , desktop sebagai layanan (DaaS).
+PaaS: Platform sebagai Layanan
+	Ini agak mirip dengan IaaS tetapi perbedaannya adalah:
+		1. Pengembang menyediakan aplikasi yang dijalankan platform.
+		2. Mereka tidak secara langsung membuat VM.
+	Paas terlihat sederhana dan itulah sebabnya banyak digunakan. Namun sebernarnya Iaas 10x lebih populer dari Paas. 
 
-Ini terkait dengan penyedia layanan aplikasi (ASP) yang menyediakan aplikasi "shrink-wrap" untuk pengguna bisnis melalui Internet. Perangkat lunak yang dikirimkan melalui Internet lebih awal memiliki fitur yang mirip dengan aplikasi di tempat dibandingkan dengan aplikasi SaaS. Karena ini awalnya dibangun sebagai aplikasi penyewa tunggal, kemampuan mereka untuk berbagi data terbatas. Aplikasi SaaS adalah instance tunggal, arsitektur multi-tenant yang memberikan pengalaman kaya fitur yang kompetitif dengan aplikasi on-premise. Aggregator menggabungkan penawaran SaaS dari vendor yang berbeda dan menawarkannya sebagai bagian dari platform aplikasi terpadu.
 
-Penyedia SaaS menyimpan aplikasi dan data secara terpusat - tambalan penyebaran. Mereka meningkatkan ke aplikasi secara transparan, memberikan akses ke pengguna akhir melalui Internet. Banyak vendor menyediakan API yang digunakan pengembang untuk membuat aplikasi komposit. Ini berisi berbagai mekanisme keamanan untuk keamanan data selama transmisi dan penyimpanan.
-Karakteristik Software-as–a-Service (SaaS)
+SAAS (Software as a Service) Platform Architecture
+	SaaS adalah model lisensi dan pengiriman perangkat lunak di mana perangkat lunak dilisensikan berdasarkan berlangganan dan di-host secara terpusat. Pengguna dapat mengaksesnya dengan bantuan browser web. SaaS adalah model pengiriman umum untuk banyak aplikasi bisnis, termasuk perangkat lunak perkantoran dan pesan, perangkat lunak manajemen, virtualisasi dll. Ini adalah bagian dari nomenklatur komputasi awan, bersama dengan infrastruktur sebagai layanan (IaaS), platform sebagai layanan (PaaS) , desktop sebagai layanan (DaaS).
 
-Berikut adalah karakteristik dari model SaaS:
-Membuat dan mengakses aplikasi SaaS melalui internet
-Aplikasi software diurus oleh vendor bukan pelanggan
-Lisensi untuk penggunaan aplikasi bersifat subscription (perbulan/pertahun), dan ditagih setiap bulan atau tahun.
-Aplikasi SaaS hemat biaya karena tidak memerlukan maintenance oleh pelanggan.
-Aplikasi tersedia sesuai permintaan
-Aplikasi dapat di upgrade sesuai permintaan
-SaaS menawarkan model sharing data. 
-Semua pengguna menjalankan versi software yang sama.
-Jenis-Jenis Software-as–a-Service (SaaS)
-Secara garis besar jenis SaaS terbagi 2 jenis, Open SaaS dan SOA (service oriented architecture)
+	Ada dua varietas utama SaaS:
+		1. SaaS Vertikal
+		2. Perangkat Lunak yang menjawab kebutuhan industri tertentu seperti Perangkat lunak untuk kesehatan, pertanian, real estat, industri keuangan)
+		3. SaaS Horisontal
+		4. Produk-produk yang berfokus pada kategori perangkat lunak (pemasaran, penjualan, alat pengembang, SDM) tetapi agnostik industri.
 
-Open SaaS
-Open SaaS menggunakan aplikasi SaaS yang dikembangkan menggunakan bahasa pemrograman berbasis open source. Aplikasi SaaS ini dapat berjalan pada sistem operasi dan database open source manapun. Open SaaS memiliki beberapa manfaat seperti:
-Tidak mememerlukan lisensi 
-Biaya operasional yang rendah 
-Tidak keterikatan dengan vendor 
-Aplikasi yang bersifat portable
+	Kesimpulan :
+	Perusahaan sebaiknya mempertimbangkan fleksibilitas dan implikasi manajemen risiko dalam menambahkan SaaS ke portofolio layanan TI . Integrasi dan komposisi adalah komponen penting dalam strategi arsitektur Anda untuk menggabungkan SaaS dengan sukses sebagai anggota yang berpartisipasi penuh dari infrastruktur TI  yang berpusat pada layanan. 
+
+SAAS (Software as a Service) Platform Architecture
+	SaaS adalah cara untuk mengirimkan perangkat lunak, penyedia perangkat lunak ini secara sentral menampung satu atau lebih aplikasi dan membuatnya tersedia bagi pelanggan melalui internet.
+
+	SaaS juga merupakan salah satu pilar utama komputasi awan. Sebuah ledakan dalam komputasi Cloud, didorong oleh penyedia cloud seperti Microsoft dengan Azure atau Amazon dengan AWS, telah melihat pertumbuhan produk dan layanan lain yang disampaikan melalui internet seperti:
+		1. Infrastruktur sebagai Layanan
+		2. Platform sebagai Layanan
+		3. Pembelajaran Mesin sebagai Layanan
+
+How to build a cloud-based SaaS application
+	Saat membangun aplikasi SaaS (global), ada kemungkinan besar bahwa Anda membangunnya di cloud. Cloud memiliki banyak keunggulan - pikirkan skalabilitas - berbeda dengan lingkungan server lokal.
+
+	Membangun a cloud-based Saas application
+		1. Pilih bahasa pemrograman, dalam hal ini menggunakan bahasa pemrograman python
+		2. Memilih database yang sempurna, dalam hal ini menggunakan MongoDB sebagai database untuk aplikasi web
+		3. memilih Queuning system yang tepat, dalan hal ini queuing system yang gunakan yaitu RabbitMQ
